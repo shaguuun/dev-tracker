@@ -37,7 +37,6 @@ def log_session(project, duration_minutes, notes=''):
 
     print(f"Logged : {duration_minutes} min on {project}")
 
-#log_session("dev-tracker", 45, "wrote the logger")
 
 def view_sessions():
     """
